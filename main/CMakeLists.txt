@@ -1,2 +1,2 @@
-idf_component_register(SRCS "gui.c" "chatgpt.c"
+idf_component_register(SRCS "gui.c" "lcd_main.c"
                     INCLUDE_DIRS ".")
