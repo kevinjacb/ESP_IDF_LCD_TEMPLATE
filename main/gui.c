@@ -229,6 +229,8 @@ void slider_event_cb(lv_event_t *e)
 
 void draw_ui()
 {
+    // lvgl graphics stuff goes here, an example is given below
+
     // checks if display is NULL
     if (display == NULL)
     {
@@ -247,15 +249,5 @@ void draw_ui()
     // create label
     label = lv_label_create(parent);
     lv_label_set_text(label, "100");
-
-    // lv_style_t style;
-    // lv_style_copy(&style, &lv_style_plain); // Copy the default style
-
-    // // Adjust the font size
-    // style.text.font = &lv_font_montserrat_20; // Use a larger font (replace with the desired font)
-
-    // // Apply the modified style to the label
-    // lv_obj_set_style(label, &style);
-
     lv_obj_align_to(label, slider, LV_ALIGN_OUT_TOP_MID, 0, -15); // align to the top mid of the slider
 }
