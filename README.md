@@ -73,6 +73,3 @@ void draw_ui() {
 - `components/`: External components and libraries.
 
 
----
-
-This README provides users with an overview of the project, instructions on how to set up the project, customize graphics using LVGL, and information about the folder structure. Feel free to add or modify sections based on your project's needs.
